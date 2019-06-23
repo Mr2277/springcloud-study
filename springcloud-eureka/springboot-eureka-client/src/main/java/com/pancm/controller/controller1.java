@@ -17,6 +17,7 @@ public class controller1 {
      List<String> list= discoveryClient.getServices();
      for(String s:list){
          System.out.println(s);
+
      }
      return null;
    }
